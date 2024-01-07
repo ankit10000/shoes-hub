@@ -1,0 +1,98 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.custom-margin-r {
+  margin-right: 100px;
+}
+.custom-margin-l {
+  margin-right: 100px;
+}
+.nav-custom-css {
+  font-weight: 900;
+  color: crimson !important;
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  align-self: center;
+}
+.nav-custom-css:hover {
+  color: aliceblue !important;
+}
+.brand-nav {
+  font-size: 45px;
+}
+.bg-imag {
+  background-image: url("/src/Images/img-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.custom-carsoul {
+  height: 50vh;
+  width: 100vw;
+}
+.carousel-inner {
+  margin: auto !important;
+  width: 80vw;
+}
+.custom-css-productdetails {
+  /* height: 100%; */
+  border-radius: 50px;
+}
+.custom-css-productdetail {
+  height: 100%;
+  width: 60vw;
+  margin: auto;
+  opacity: 0.85;
+}
+@media (min-width: 417px) and (max-width: 991px) {
+  .nav-upper {
+    display: flex;
+    flex-direction: column;
+  }
+  .div-flex {
+    display: contents !important;
+    flex-direction: column;
+  }
+  .navbar-toggler {
+    position: absolute;
+    right: 18px;
+  }
+
+  .custom-toggle-nav {
+    width: 130px;
+  }
+  .nav-custom-css {
+    font-size: 18px;
+  }
+  .brand-nav {
+    font-size: 30px;
+  }
+}
+@media (min-width: 320px) and (max-width: 416px) {
+  .nav-upper {
+    display: flex;
+    flex-direction: column;
+  }
+  .div-flex {
+    display: contents !important;
+    flex-direction: column;
+  }
+  .navbar-toggler {
+    position: absolute;
+    right: 18px;
+  }
+
+  .custom-toggle-nav {
+    width: 60px;
+    margin-top: 10px;
+  }
+  .nav-custom-css {
+    font-size: 18px;
+  }
+  .brand-nav {
+    font-size: 30px;
+  }
+}
