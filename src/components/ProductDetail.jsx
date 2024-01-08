@@ -97,7 +97,30 @@ export default function Example() {
         <div className="mx-auto mt-6 max-w-2xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-x-8 lg:px-8">
           <div className="aspect-h-4 aspect-w-3 hidden overflow-hidden rounded-lg lg:block">
             <img
-              src={product.imageSrc}
+              src={product.imageSrc[0].src}
+              className="h-full w-full object-cover object-center"
+            />
+          </div>
+          <div className="hidden lg:grid lg:grid-cols-1 lg:gap-y-8">
+            <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg">
+              <img
+                src={product.imageSrc[1].src}
+                alt={product.imageSrc[1].alt}
+                className="h-full w-full object-cover object-center"
+              />
+            </div>
+            <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg">
+              <img
+                src={product.imageSrc[2].src}
+                alt={product.imageSrc[2].alt}
+                className="h-full w-full object-cover object-center"
+              />
+            </div>
+          </div>
+          <div className="aspect-h-5 aspect-w-4 lg:aspect-h-4 lg:aspect-w-3 sm:overflow-hidden sm:rounded-lg">
+            <img
+              src={product.imageSrc[3].src}
+              alt={product.imageSrc[3].alt}
               className="h-full w-full object-cover object-center"
             />
           </div>
@@ -187,7 +210,7 @@ export default function Example() {
                       <span
                         aria-hidden="true"
                         className={classNames(
-                          product.color,
+                          `bg-${product.color}`,
                           'h-8 w-8 rounded-full border border-black border-opacity-10'
                         )}
                       />
@@ -261,7 +284,7 @@ export default function Example() {
 
 
               <a
-                href={generateWhatsAppLink(product.imageSrc, product.name, product.price)}
+                href={generateWhatsAppLink(product.imageSrc[0].src, product.name, product.price)}
                 type="submit"
                 className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-green-600 px-8 py-3 text-base font-medium text-white hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
               >

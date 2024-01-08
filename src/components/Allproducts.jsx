@@ -10,83 +10,263 @@ import img99 from '../Images/99.jpg'
 const products = [
     {
       id: 1,
-      name: 'Basic Tee',
-      imageSrc: img11,
-      description: "Front of men's Basic Tee in black.",
-      price: 'Rs. 35',
-      color: 'Black',
+      name: 'Red/black Jordan',
+      // imageSrc: img11,
+      imageSrc: [
+    {
+      src: img11,
+      alt: 'Two each of gray, white, and black shirts laying flat.',
+    },
+    {
+      src: img11,
+      alt: 'shoes',
+    },
+    {
+      src: img11,
+      alt: 'shoes',
+    },
+    {
+      src: img11,
+      alt: 'Model wearing plain white basic tee.',
+    },
+  ],
+      description: "This shoes have the best quality and you have no issue after purchasing so buy it. ",
+      price:"Rs 399",
+      color: 'red-500',
     },
     {
       id: 2,
-      name: 'Basic Tee',
-      imageSrc: img33,
-      description: "Front of men's Basic Tee in black.",
-      price: 'Rs. 25',
-      color: 'Black',
+      name: 'White Jordan',
+      // imageSrc: img33,
+      imageSrc: [
+    {
+      src: img22,
+      alt: 'Two each of gray, white, and black shirts laying flat.',
+    },
+    {
+      src: img22,
+      alt: 'shoes',
+    },
+    {
+      src: img22,
+      alt: 'shoes',
+    },
+    {
+      src: img22,
+      alt: 'Model wearing plain white basic tee.',
+    },
+  ],
+      description: "This shoes have the best quality and you have no issue after purchasing so buy it. ",
+      price:"Rs 399",
+      color: 'white',
     },
     {
       id: 3,
-      name: 'Basic Tee',
-      imageSrc: img44,
-      description: "Front of men's Basic Tee in black.",
-      price: 'Rs. 385',
-      color: 'Black',
+      name: 'Brown Boots',
+      // imageSrc: img44,
+      imageSrc: [
+    {
+      src: img33,
+      alt: 'Two each of gray, white, and black shirts laying flat.',
+    },
+    {
+      src: img33,
+      alt: 'shoes',
+    },
+    {
+      src: img33,
+      alt: 'shoes',
+    },
+    {
+      src: img33,   
+      alt: 'Model wearing plain white basic tee.',
+    },
+  ],
+      description: "This shoes have the best quality and you have no issue after purchasing so buy it. ",
+      price:"Rs 399",
+      color: 'amber-700',
     },
     {
       id: 4,
-      name: 'Basic Tee',
-      imageSrc: img55,
-      description: "Front of men's Basic Tee in black.",
-      price: 'Rs. 85',
-      color: 'Black',
+      name: 'Girls Slim Sneker',
+      // imageSrc: img55,
+      imageSrc: [
+    {
+      src: img44,
+      alt: 'Two each of gray, white, and black shirts laying flat.',
+    },
+    {
+      src: img44,
+      alt: 'shoes',
+    },
+    {
+      src: img44,
+      alt: 'shoes',
+    },
+    {
+      src: img44,
+      alt: 'Model wearing plain white basic tee.',
+    },
+  ],
+      description: "This shoes have the best quality and you have no issue after purchasing so buy it. ",
+      price:"Rs 399",
+      color: 'orange-300',
     },
     {
       id: 5,
-      name: 'Basic Tee',
-      imageSrc: img66,
-      description: "Front of men's Basic Tee in black.",
-      price: 'Rs. 63',
-      color: 'Black',
+      name: "White Sneker",
+      // imageSrc: img66,
+      imageSrc: [
+    {
+      src: img55,
+      alt: 'Two each of gray, white, and black shirts laying flat.',
+    },
+    {
+      src: img55,
+      alt: 'shoes',
+    },
+    {
+      src: img55,
+      alt: 'shoes',
+    },
+    {
+      src: img55,
+      alt: 'Model wearing plain white basic tee.',
+    },
+  ],
+      description: "This shoes have the best quality and you have no issue after purchasing so buy it. ",
+      price:"Rs 399",
+      color: 'white',
     },
     {
       id: 6,
-      name: 'Basic Tee',
-      imageSrc: img77,
-      description: "Front of men's Basic Tee in black.",
-      price: 'Rs. 365',
-      color: 'Black',
+      name: 'Orange/White Sports',
+      // imageSrc: img77,
+      imageSrc: [
+    {
+      src: img66,
+      alt: 'Two each of gray, white, and black shirts laying flat.',
+    },
+    {
+      src: img66,
+      alt: 'shoes',
+    },
+    {
+      src: img66,
+      alt: 'shoes',
+    },
+    {
+      src: img66,
+      alt: 'Model wearing plain white basic tee.',
+    },
+  ],
+      description: "This shoes have the best quality and you have no issue after purchasing so buy it. ",
+      price:"Rs 399",
+      color: 'white',
     },
     {
       id: 7,
-      name: 'Basic Tee',
-      imageSrc: img88,
-      description: "Front of men's Basic Tee in black.",
-      price: 'Rs. 11',
-      color: 'Black',
+      name: 'black Sneker',
+      // imageSrc: img88,
+      imageSrc: [
+    {
+      src: img77,
+      alt: 'Two each of gray, white, and black shirts laying flat.',
+    },
+    {
+      src: img77,
+      alt: 'shoes',
+    },
+    {
+      src: img77,
+      alt: 'shoes',
+    },
+    {
+      src: img77,
+      alt: 'Model wearing plain white basic tee.',
+    },
+  ],
+      description: "This shoes have the best quality and you have no issue after purchasing so buy it. ",
+      price:"Rs 399",
+      color: 'black',
     },
     {
       id: 8,
-      name: 'Basic Tee',
-      imageSrc: img99,
-      description: "Front of men's Basic Tee in black.",
-      price: 'Rs. 44',
-      color: 'Black',
+      name: 'Pink Sneker',
+      // imageSrc: img99,
+      imageSrc: [
+    {
+      src: img88,
+      alt: 'Two each of gray, white, and black shirts laying flat.',
+    },
+    {
+      src: img88,
+      alt: 'shoes',
+    },
+    {
+      src: img88,
+      alt: 'shoes',
+    },
+    {
+      src: img88,
+      alt: 'Model wearing plain white basic tee.',
+    },
+  ],
+      description: "This shoes have the best quality and you have no issue after purchasing so buy it. ",
+      price:"Rs 399",
+      color: 'pink-200',
     },
     {
       id: 9,
-      name: 'Basic Tee',
-      imageSrc: img22,
-      description: "Front of men's Basic Tee in black.",
-      price: 'Rs. 77',
-      color: 'Black',
+      name: 'Dark Brown Sneker',
+      // imageSrc: img22,
+      imageSrc: [
+    {
+      src: img99,
+      alt: 'Two each of gray, white, and black shirts laying flat.',
+    },
+    {
+      src: img99,
+      alt: 'shoes',
+    },
+    {
+      src: img99,
+      alt: 'shoes',
+    },
+    {
+      src: img99,
+      alt: 'shoes',
+    },
+  ],
+      description: "This shoes have the best quality and you have no issue after purchasing so buy it. ",
+      price:"Rs 399",
+      color: 'red-500',
     },
     {
       id: 10,
-      name: 'Basic Tee',
-      imageSrc: img99,
-      description: "Front of men's Basic Tee in black.",
-      price: 'Rs. 66',
-      color: 'Black',
+      name: 'White Sneker',
+      // imageSrc: img99,
+      imageSrc: [
+    {
+      src: img55,
+      alt: 'Two each of gray, white, and black shirts laying flat.',
+    },
+    {
+      src: img55,
+      alt: 'shoes',
+    },
+    {
+      src: img55,
+      alt: 'shoes',
+    },
+    {
+      src: img55,
+      alt: 'Model wearing plain white basic tee.',
+    },
+  ],
+      description: "This shoes have the best quality and you have no issue after purchasing so buy it. ",
+      price:"Rs 399",
+      color: 'white',
     },
   ]
   export default products;

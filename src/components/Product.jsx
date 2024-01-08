@@ -51,8 +51,8 @@ export default function Product() {
             <div key={product.id} className="group relative bg-white p-4 rounded-xl">
               <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-white lg:aspect-none group-hover:opacity-75 lg:h-80">
                 <img
-                  src={product.imageSrc}
-                  alt={product.imageSrc}
+                  src={product.imageSrc[0].src}
+                  alt={product.imageSrc[0].alt}
                   className="h-full w-full object-cover object-center lg:h-full lg:w-full"
                 />
               </div>
@@ -62,7 +62,7 @@ export default function Product() {
                     <h3 className="text-xl tracking-tight font-bold text-red-600">
                       {product.name}
                     </h3>
-                    <p className="mt-1 text-sm text-gray-500">{product.color}</p>
+                    <p className="mt-3 text-sm text-gray-500"></p>
                   </div>
                   <p className="text-lg font-medium text-gray-900">{product.price}</p>
                 </div>
